@@ -33,20 +33,16 @@ A modern, containerized **Todo App** built with **React (frontend)**, **FastApi 
 
 ```bash
 git clone git@github.com:Abib-44/Dockerized-FastAPI-React.git
+
 cd todo-app
 ```
 
 🔧 Useful Commands
 ```
 # Build and start everything
-docker-compose up --build
+docker compose up --build
 
 # Stop all containers
-docker-compose down
+docker compose down
 
-# Rebuild backend only
-docker-compose build backend
-
-# Run database migrations manually (if needed)
-docker exec -it todo-app_backend_1 npm run migrate
 ```
