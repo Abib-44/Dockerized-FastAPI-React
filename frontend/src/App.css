@@ -1,0 +1,108 @@
+body {
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#root {
+  padding: 33px;
+    border: solid 1px;
+    border-radius: 20px;
+}
+
+.todo__input {
+    width: 100%;
+    padding: 10px 60px 10px 15px;
+    border-radius: 6px 0 0 6px;
+    border: none;
+    outline: none;
+    background-color: rgb(222, 242, 255);
+    color: rgb(18, 37, 53);
+    font-weight: 500;
+}
+
+.todo__input::placeholder {
+  color: rgb(18, 37, 53);
+  opacity: 0.6;
+  font-weight: 500;
+}
+
+.todo__input-group {
+  display: flex;
+}
+
+.todo__add-btn {
+    padding: 0 15px;
+    background-color: orange !important;
+    color: aliceblue !important;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+}
+
+
+.todo__list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  width: 100%;
+  font-size: large;
+}
+
+.todo__item {
+  position: relative;
+  padding: 10px 10px 10px 40px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.todo__item::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-image: url("https://cdn-icons-png.flaticon.com/128/10914/10914351.png");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.todo__text--completed {
+  color: #555;
+  text-decoration: line-through;
+  cursor: pointer;
+  user-select: none;
+}
+
+.todo__text--completed::before {
+  background-image: url("https://png.pngtree.com/png-vector/20191113/ourmid/pngtree-green-check-mark-icon-flat-style-png-image_1986021.jpg");
+}
+
+
+.todo__delete-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 5px;
+  border-radius: 50%;
+  line-height: 12px;
+  text-align: center;
+  color: orange;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.todo__delete-btn:hover {
+  background-color: orange;
+  color: white;
+}

@@ -1,10 +1,4 @@
-fastapi[all]
-uvicorn[standard]
-sqlalchemy>=2.0
-asyncpg
-python-dotenv
-alembic
-psycopg2-binary
-pydantic[email]
-passlib[bcrypt]
-pydantic
+fastapi==0.104.1
+uvicorn==0.24.0
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
