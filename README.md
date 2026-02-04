@@ -32,7 +32,7 @@ A modern, containerized **Todo App** built with **React (frontend)**, **FastApi 
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone git@github.com:Abib-44/Dockerized-FastAPI-React.git
 cd todo-app
 ```
 
