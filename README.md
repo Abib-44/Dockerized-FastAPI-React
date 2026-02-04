@@ -19,8 +19,8 @@ A modern, containerized **Todo App** built with **React (frontend)**, **FastApi 
 
 | Layer       | Technology                  |
 |------------|-----------------------------|
-| Frontend    | React, TailwindCSS (optional) |
-| Backend     | Node.js / Python (example)   |
+| Frontend    | React |
+| Backend     | FastApi  |
 | Database    | PostgreSQL 15               |
 | DB Admin   | pgAdmin 4                    |
 | Container  | Docker + Docker Compose      |
