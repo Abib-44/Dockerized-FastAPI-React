@@ -1,4 +1,4 @@
-# 📝 Todo App - Fullstack with Docker
+# Fullstack with Docker
 
 A modern, containerized **Todo App** built with **React (frontend)**, **FastApi backend**, **PostgreSQL**, and **pgAdmin**. Designed for fast development, multi-developer environments, and easy setup with Docker Compose.  
 
